@@ -3,8 +3,8 @@
 
 #include "algo.h"
 
-#include "vector/Vector.h"
-#include "vector/search.h"
+#include "Vector.h"
+#include "search.h"
 
 #include <vector>
 
