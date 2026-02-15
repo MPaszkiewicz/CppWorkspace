@@ -1,7 +1,5 @@
 #pragma once
 
-#include "vector.h"
-
 #include <cstddef>
 #include <cstring>
 #include <type_traits>

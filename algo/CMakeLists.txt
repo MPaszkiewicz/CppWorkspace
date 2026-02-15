@@ -13,4 +13,5 @@ project ("algo")
 
 # Include sub-projects.
 add_subdirectory("vector")
+add_subdirectory("sorting")
 add_subdirectory ("algo")

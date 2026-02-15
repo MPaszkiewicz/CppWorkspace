@@ -4,6 +4,7 @@
 template<typename T>
 int binary_search(T* data, int begin, int end, const T& value)
 {
+	int original_end = end;
 	while (begin < end)
 	{
 		int mid = begin + (end - begin) / 2;
@@ -20,7 +21,7 @@ int binary_search(T* data, int begin, int end, const T& value)
 			return mid;
 		}
 	}
-	return -1;
+	return original_end;
 }
 
 template<typename T>
